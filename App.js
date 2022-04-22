@@ -4,10 +4,10 @@ import { createStackNavigator } from '@react-navigation/stack';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { createDrawerNavigator } from '@react-navigation/drawer';
 import Ionicons from 'react-native-vector-icons/Ionicons';
-import FavoriteScreen from './screens/selected'
-import HomeScreen from './screens/list'
-import MyProfile from './screens/mycard'
-import Profile1 from './screens/contact1'
+import FavoriteScreen from './pages/selected'
+import HomeScreen from './pages/list'
+import MyProfile from './pages/mycard'
+import Profile1 from './pages/contact1'
 
 const AppStack = createStackNavigator();
 const Drawer = createDrawerNavigator();
